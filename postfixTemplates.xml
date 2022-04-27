@@ -1,0 +1,10 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="atom@userDefined" key=".atom" provider="builtin.java" language-level="8" topmost="true">
+      <conditions>
+        <condition id="boolean" />
+      </conditions>
+      <template name="fakeKey" value="public class Foo {&#10;    void m(boolean b) {&#10;        if (b) {&#10;&#10;        }&#10;    }&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
