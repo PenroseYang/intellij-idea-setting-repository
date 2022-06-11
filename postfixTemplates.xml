@@ -7,4 +7,16 @@
       <template name="fakeKey" value="public class Foo {&#10;    void m(boolean b) {&#10;        if (b) {&#10;&#10;        }&#10;    }&#10;}" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="de.plushnikov.intellij.plugin.extension.postfix.LombokPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokValPostfixTemplate#.val" />
+            <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokVarPostfixTemplate#.varl" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
 </application>
