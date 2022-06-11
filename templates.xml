@@ -3,6 +3,26 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="logsupport" />
+          <option name="key" value="logt" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="logsupport" />
+          <option name="key" value="logd" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="logsupport" />
+          <option name="key" value="logi" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="logsupport" />
+          <option name="key" value="logw" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="logsupport" />
+          <option name="key" value="loge" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
@@ -117,6 +137,66 @@
         <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_command exists" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="dep" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="pl" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="repo" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Kotlin" />
+          <option name="key" value="object" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="tldTag" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="tldFunction" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="uicomponent" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="jsfconverter" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="navrule" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="refbean" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="renderkit" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="jsfvalidator" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="propertybean" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="mapentriesbean" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="listentriesbean" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="spring" />
@@ -353,6 +433,70 @@
         <TemplateKey>
           <option name="groupName" value="Spring Dynamic Modules" />
           <option name="key" value="osgisetwithcomparator" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="payloadEndpoint" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="payloadMapping" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="mapBasedEndpointMapping" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="annotationEndpointMapping" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="simpleWsdlDefinition" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="wsdlDefinitionWithSchema" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="wsdlDefinitionWithSchemaCollection" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="xsdSchema" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="commonsXsdSchemaCollection" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="messageFactory" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="soapMessageDispatcher" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="messageListenerContainer" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="messageListener" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="connectionFactory" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="mailMessageReceiver" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="spring" />
+          <option name="key" value="httpServerFactoryBean" />
         </TemplateKey>
       </list>
     </option>
