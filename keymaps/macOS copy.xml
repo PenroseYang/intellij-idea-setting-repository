@@ -7,13 +7,21 @@
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CollapseBlock" />
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="alt up" second-keystroke="meta s" />
+  </action>
+  <action id="List-selectFirstRow" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="shift ctrl meta m" />
   </action>
+  <action id="MethodOverloadSwitchUp" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="shift ctrl meta n" />
   </action>
