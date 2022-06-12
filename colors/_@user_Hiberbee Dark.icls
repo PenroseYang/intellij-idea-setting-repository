@@ -4,7 +4,7 @@
     <property name="created">2022-06-11T19:33:58</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.3.0.0</property>
-    <property name="modified">2022-06-11T21:31:11</property>
+    <property name="modified">2022-06-12T12:59:23</property>
     <property name="originalScheme">Hiberbee Dark</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
@@ -598,6 +598,11 @@
         <option name="FOREGROUND" value="c1eff6" />
       </value>
     </option>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="68a71c" />
+      </value>
+    </option>
     <option name="DEFAULT_BRACES">
       <value>
         <option name="FOREGROUND" value="fd971f" />
@@ -630,7 +635,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="d4ad86" />
+        <option name="FOREGROUND" value="69bf1f" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -704,7 +709,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="acacac" />
+        <option name="FOREGROUND" value="e7d4d4" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
