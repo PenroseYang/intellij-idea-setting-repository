@@ -4,7 +4,7 @@
     <property name="created">2022-02-18T23:35:11</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-06-13T19:24:48</property>
+    <property name="modified">2022-06-13T20:45:31</property>
     <property name="originalScheme">Monokai Pro (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -824,8 +824,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ff6188" />
-        <option name="ERROR_STRIPE_COLOR" value="ff6188" />
+        <option name="EFFECT_COLOR" value="f6023e" />
+        <option name="ERROR_STRIPE_COLOR" value="f6023e" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3380,8 +3380,8 @@
     </option>
     <option name="RUNTIME_ERROR">
       <value>
-        <option name="EFFECT_COLOR" value="ff6188" />
-        <option name="ERROR_STRIPE_COLOR" value="ff6188" />
+        <option name="EFFECT_COLOR" value="f6023e" />
+        <option name="ERROR_STRIPE_COLOR" value="f6023e" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3872,9 +3872,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ff6188" />
-        <option name="ERROR_STRIPE_COLOR" value="333231" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="f6023e" />
+        <option name="ERROR_STRIPE_COLOR" value="f6023e" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
