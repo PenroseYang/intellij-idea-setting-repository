@@ -7,4 +7,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="logi" value="logger.info(&quot;$methodName$.params... $argsLog$&quot;, $argsJson$)" toReformat="false" toShortenFQNames="true">
+    <variable name="methodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="argsLog" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="argsJson" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
