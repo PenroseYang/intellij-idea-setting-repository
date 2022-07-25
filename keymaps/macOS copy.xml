@@ -29,6 +29,14 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="Run" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -42,8 +50,4 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="UsageFiltering.ReadAccess" />
-  <action id="runShellFileAction">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
 </keymap>
