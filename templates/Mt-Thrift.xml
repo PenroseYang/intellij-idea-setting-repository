@@ -18,4 +18,10 @@
     <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = [{}]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="enumGene" value="    //    SELECT_SEAT_NOW(1, &quot;已选择坐席&quot;),&#10;    ;&#10; &#10;    private Integer code;&#10;    private String message;&#10;&#10;    private static final java.util.Map&lt;Integer, $className$&gt; CODE_MAP;&#10;&#10;    static {&#10;        CODE_MAP = com.google.common.collect.Maps.newHashMap();&#10;        for ($className$ item : $className$.values()) {&#10;            CODE_MAP.put(Integer.valueOf(item.getCode()), item);&#10;        }&#10;    }&#10;&#10;    $className$(Integer code, String message) {&#10;        this.code = code;&#10;        this.message = message;&#10;    }&#10;&#10;    public String getmessage() {&#10;        return message;&#10;    }&#10;&#10;    public void setmessage(String message) {&#10;        this.message = message;&#10;    }&#10;&#10;    public Integer getCode() {&#10;        return code;&#10;    }&#10;&#10;    public void setCode(Integer code) {&#10;        this.code = code;&#10;    }&#10;&#10;    public static final $className$ codeOf(Integer code) {&#10;        if (code == null) {&#10;            return null;&#10;        }&#10;        return CODE_MAP.get(code.toString());&#10;    }" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
