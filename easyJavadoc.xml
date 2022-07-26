@@ -2,6 +2,10 @@
   <component name="easyJavadoc">
     <option name="appId" value="" />
     <option name="author" value="yangzhe" />
+    <option name="genAllClass" value="true" />
+    <option name="genAllField" value="true" />
+    <option name="genAllInnerClass" value="false" />
+    <option name="genAllMethod" value="true" />
     <option name="methodReturnType" value="code" />
     <option name="secretId" value="" />
     <option name="secretKey" value="" />
