@@ -1,0 +1,3 @@
+<templateSet group="Mt-Thrift">
+  <template name="deleg" value="占位符" description="调用服务的delegate服务" toReformat="false" toShortenFQNames="true" />
+</templateSet>
