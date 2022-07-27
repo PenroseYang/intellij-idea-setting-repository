@@ -1,4 +1,8 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
