@@ -51,8 +51,15 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="Sonar-Sonic.AnalyzeFiles" />
+  <action id="SonarLint.AnalyzeChangedFiles">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="SonarLint.AnalyzeFiles" />
   <action id="Sql.EditParameter">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="UsageFiltering.ReadAccess" />
+  <action id="com.dubreuia.core.action.ShortcutAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
