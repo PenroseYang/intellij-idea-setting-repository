@@ -1,0 +1,7 @@
+<templateSet group="PrefixGenerate">
+  <template name="nn" value="Objects.nonNull()" description="判空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
