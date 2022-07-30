@@ -5,7 +5,7 @@
     </context>
   </template>
   <template name="test" value="$111$" toReformat="false" toShortenFQNames="true">
-    <variable name="111" expression="groovyScript(&quot;java.lang.System.currentTimeMillis()&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="111" expression="groovyScript(&quot;Stream.of(methodParameters()).collect(Collectors.joining(&quot;) || Objects.isNull(&quot;, &quot;Objects.isNull(&quot;, &quot;)){\n}&quot;))&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
