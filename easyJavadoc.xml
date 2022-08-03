@@ -5,7 +5,7 @@
     <option name="genAllClass" value="true" />
     <option name="genAllField" value="true" />
     <option name="genAllInnerClass" value="true" />
-    <option name="genAllMethod" value="true" />
+    <option name="genAllMethod" value="false" />
     <option name="methodReturnType" value="code" />
     <option name="secretId" value="" />
     <option name="secretKey" value="" />
