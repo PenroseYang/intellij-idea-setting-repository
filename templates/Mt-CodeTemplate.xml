@@ -27,4 +27,19 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tbmsSwitch1" value="import com.facebook.swift.codec.ThriftField;&#10;import com.facebook.swift.codec.ThriftStruct;&#10;import com.meituan.train.tbms.model.TBizCodeInfo;&#10;/**&#10; * @author yangzhe&#10; * @date $time$&#10; */&#10;@ThriftStruct&#10;public class $className$ {&#10;&#10;&#9;private TBizCodeInfo bizCode;&#10;&#10;&#9;private $SonClass$ config;&#10;&#10;&#9;@ThriftField(1)&#10;&#9;public TBizCodeInfo getBizCode() {&#10;&#9;&#9;return bizCode;&#10;&#9;}&#10;&#10;&#9;@ThriftField&#10;&#9;public void setBizCode(TBizCodeInfo bizCode) {&#10;&#9;&#9;this.bizCode = bizCode;&#10;&#9;}&#10;&#10;&#9;@ThriftField(2)&#10;&#9;public $SonClass$ getConfig() {&#10;&#9;&#9;return config;&#10;&#9;}&#10;&#10;&#9;@ThriftField&#10;&#9;public void setConfig($SonClass$ config) {&#10;&#9;&#9;this.config = config;&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public String toString() {&#10;&#9;&#9;return &quot;$className${&quot; +&#10;&#9;&#9;&#9;&#9;&quot;bizCode=&quot; + bizCode +&#10;&#9;&#9;&#9;&#9;&quot;, config=&quot; + config +&#10;&#9;&#9;&#9;&#9;'}';&#10;&#9;}&#10;}" description="TBMS开关--外层返回的Response" toReformat="false" toShortenFQNames="true">
+    <variable name="time" expression="date(&quot;Y-MM-d&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="SonClass" expression="regularExpression(className(), &quot;Response&quot;, &quot;Config&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tbmsSwitch2" value="import com.facebook.swift.codec.ThriftField;&#10;import com.facebook.swift.codec.ThriftStruct;&#10;import com.meituan.train.tbms.model.TBizCodeInfo;&#10;import com.meituan.servicecatalog.api.annotations.FieldDoc;&#10;&#10;/**&#10; * @author yangzhe&#10; * @date $time$&#10; */&#10;@ThriftStruct&#10;public class $className$ {&#10;&#10;&#9;@FieldDoc(description = &quot;开关打开&quot;)&#10;&#9;private boolean open;&#10;&#10;&#10;&#9;@ThriftField(1)&#10;&#9;public boolean isOpen() {&#10;&#9;&#9;return open;&#10;&#9;}&#10;&#10;&#9;@ThriftField&#10;&#9;public void setOpen(boolean open) {&#10;&#9;&#9;this.open = open;&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public String toString() {&#10;&#9;&#9;return &quot;$className${&quot; +&#10;&#9;&#9;&#9;&#9;&quot;open=&quot; + open +&#10;&#9;&#9;&#9;&#9;'}';&#10;&#9;}&#10;}" description="TBMS开关--Response里面的data结构体" toReformat="false" toShortenFQNames="true">
+    <variable name="time" expression="date(&quot;Y-MM-d&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
