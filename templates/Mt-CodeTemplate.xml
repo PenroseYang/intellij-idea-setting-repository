@@ -48,7 +48,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="elep" value="ElephantPushUtils.sendMessage(MessageFormat.format(&quot;{0}&quot;,&quot;&quot;), &quot;yangzhe14&quot;);" description="大象通知" toReformat="false" toShortenFQNames="true">
+  <template name="elep" value="com.meituan.train.agent.gateway.util.ElephantPushUtils.sendMessage(java.text.MessageFormat.format(&quot;{0}&quot;, request), &quot;yangzhe14&quot;);" description="大象通知" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
