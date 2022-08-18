@@ -1,0 +1,48 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="blank@userDefined" key=".blank" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.apache.commons.lang3.StringUtils.isBlank($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ne@userDefined" key=".ne" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="void" />
+      </conditions>
+      <template name="fakeKey" value="org.apache.commons.collections4.CollectionUtils.isNotEmpty($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="null@userDefined" key=".null" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if (java.util.Objects.isNull($EXPR$)){&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="empty@userDefined" key=".empty" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="void" />
+      </conditions>
+      <template name="fakeKey" value="org.apache.commons.collections4.CollectionUtils.isEmpty($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toMap@userDefined" key=".toMap" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$.stream().collect(Collectors.toMap($END$::$END$, item -&gt; item));" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="nn@userDefined" key=".nn" provider="builtin.java" language-level="8" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="if (java.util.Objects.nonNull($EXPR$)){&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="nb@userDefined" key=".nb" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="org.apache.commons.lang3.StringUtils.isNotBlank($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="com.intellij.codeInsight.template.postfix.templates.IsNullCheckPostfixTemplate#.null" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotNullCheckPostfixTemplate#.nn" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>
