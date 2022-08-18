@@ -141,13 +141,22 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
-                      <option name="enabled" value="false" />
-                      <option name="grepExpression" value=".*unwanted line.*" />
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value=".*DEBUG.*" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
-                      <option name="enabled" value="false" />
-                      <option name="grepExpression" value=".*unwanted line.*" />
+                      <option name="action" value="REMOVE" />
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value=".*INFO.*" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value=".*es_datetime.*" />
+                      <option name="inputFilter" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
                   </list>
                 </option>
@@ -158,5 +167,6 @@
         </Profile>
       </list>
     </option>
+    <option name="version" value="1" />
   </component>
 </application>
