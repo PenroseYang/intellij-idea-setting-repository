@@ -142,12 +142,14 @@
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
                       <option name="continueMatching" value="true" />
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
                       <option name="continueMatching" value="true" />
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*INFO.*" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
