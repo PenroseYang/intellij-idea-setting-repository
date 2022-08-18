@@ -32,6 +32,10 @@
       <conditions />
       <template name="fakeKey" value="org.apache.commons.lang3.StringUtils.isNotBlank($EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="eleph@userDefined" key=".eleph" provider="builtin.java" language-level="8" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="ElephantPushUtils.sendMessage(MessageFormat.format(&quot;$END$:{0}&quot;,$EXPR$), &quot;yangzhe14&quot;);" toReformat="true" toShortenFQNames="true" />
+    </template>
   </component>
   <component name="PostfixTemplatesSettings">
     <option name="providerToDisabledTemplates">
