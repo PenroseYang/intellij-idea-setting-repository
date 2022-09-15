@@ -2,5 +2,6 @@
   <component name="UISettings">
     <option name="DISABLE_MNEMONICS" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="smoothScrolling" value="false" />
   </component>
 </application>
