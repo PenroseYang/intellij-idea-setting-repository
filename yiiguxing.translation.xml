@@ -1,10 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="主题" />
       <item value="邻座" />
       <item value="服务提示文案" />
       <item value="标题" />
-      <item value="主题" />
       <item value="setarrivedate setarrivetime setbatchno setfromtelecode setidname setusername setseatname setsequenceno setstartdate setstatuscode setticketprice settickettype settotelecode settraincode settraindate" />
       <item value="Receiver" />
       <item value="晚点" />
@@ -13,8 +13,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="9" />
-        <entry key="ENGLISH" value="9" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="10" />
         <entry key="FRISIAN" value="2" />
       </map>
     </option>
