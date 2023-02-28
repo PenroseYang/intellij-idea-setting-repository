@@ -1,9 +1,9 @@
 <templateSet group="logs">
-  <template name="loge" value="logger.error(&quot;$className$.$METHOD_NAME$ throw Exception $PLACE_HOLDERS$&quot;,$ARGUMENTS$, e);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="loge" value="logger.error(&quot;$className$.$METHOD_NAME$ throw Exception $PLACE_HOLDERS$&quot;,JSON.toJSONString($ARGUMENTS$), e);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;_1.collect { it + ' = [{}]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
-    <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters()) METHOD_NAME = methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join('), JSON.toJSONString(') &quot;, methodParameters()) METHOD_NAME = methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA" value="true" />
       <option name="JAVA_CODE" value="true" />
@@ -16,11 +16,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="logi" value="logger.info(&quot;$className$.$METHOD_NAME$::$PLACE_HOLDERS$&quot;,$ARGUMENTS$);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="logi" value="logger.info(&quot;$className$.$METHOD_NAME$::$PLACE_HOLDERS$&quot;,JSON.toJSONString($ARGUMENTS$));" description="" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="PLACE_HOLDERS" expression="groovyScript(&quot;def test = '';for(i in _1){test += i; test +=' = [{}]'; test += ',';};return test;&quot;,methodParameters()) " defaultValue="" alwaysStopAt="true" />
-    <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="groovyScript(&quot;_1.collect { it }.join('), JSON.toJSONString(') &quot;, methodParameters()) METHOD_NAME = methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA" value="true" />
       <option name="JAVA_CODE" value="true" />
