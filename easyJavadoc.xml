@@ -9,6 +9,30 @@
     <option name="genAllInnerClass" value="true" />
     <option name="genAllMethod" value="true" />
     <option name="methodReturnType" value="code" />
+    <option name="projectWordMap">
+      <map>
+        <entry key="aes-apiservice">
+          <value>
+            <map />
+          </value>
+        </entry>
+        <entry key="aes-gateway">
+          <value>
+            <map />
+          </value>
+        </entry>
+        <entry key="trip-camp">
+          <value>
+            <map />
+          </value>
+        </entry>
+        <entry key="trip-poi-list">
+          <value>
+            <map />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="secretId" value="" />
     <option name="secretKey" value="" />
     <option name="token" value="" />
