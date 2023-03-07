@@ -21,11 +21,12 @@
             <map />
           </value>
         </entry>
-        <entry key="trip-camp">
+        <entry key="train-server">
           <value>
             <map />
           </value>
         </entry>
+        <entry key="trip-camp" />
         <entry key="trip-poi-list">
           <value>
             <map />
