@@ -11,21 +11,14 @@
     <option name="methodReturnType" value="code" />
     <option name="projectWordMap">
       <map>
-        <entry key="aes-apiservice">
+        <entry key="aes-apiservice" />
+        <entry key="aes-gateway" />
+        <entry key="train-agent-gateway">
           <value>
             <map />
           </value>
         </entry>
-        <entry key="aes-gateway">
-          <value>
-            <map />
-          </value>
-        </entry>
-        <entry key="train-server">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="train-server" />
         <entry key="trip-camp" />
         <entry key="trip-poi-list">
           <value>
