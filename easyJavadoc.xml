@@ -24,7 +24,11 @@
         <entry key="train-agent-gateway" />
         <entry key="train-server" />
         <entry key="trip-camp" />
-        <entry key="trip-poi-list" />
+        <entry key="trip-poi-list">
+          <value>
+            <map />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="secretId" value="" />
