@@ -11,13 +11,14 @@
     <option name="methodReturnType" value="code" />
     <option name="projectWordMap">
       <map>
-        <entry key="YangProgram">
+        <entry key="YangProgram" />
+        <entry key="aes-apiservice" />
+        <entry key="aes-gateway" />
+        <entry key="detail-popup-voucher">
           <value>
             <map />
           </value>
         </entry>
-        <entry key="aes-apiservice" />
-        <entry key="aes-gateway" />
         <entry key="train-agent-gateway" />
         <entry key="train-server" />
         <entry key="trip-camp" />
@@ -26,11 +27,7 @@
             <map />
           </value>
         </entry>
-        <entry key="trip_c_commonapi_test">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="trip_c_commonapi_test" />
       </map>
     </option>
     <option name="secretId" value="" />
