@@ -17,14 +17,14 @@
         <entry key="detail-popup-voucher" />
         <entry key="train-agent-gateway" />
         <entry key="train-server" />
-        <entry key="trip-c-common-api">
+        <entry key="trip-c-common-api" />
+        <entry key="trip-camp" />
+        <entry key="trip-poi-list" />
+        <entry key="trip_c_commonapi_test">
           <value>
             <map />
           </value>
         </entry>
-        <entry key="trip-camp" />
-        <entry key="trip-poi-list" />
-        <entry key="trip_c_commonapi_test" />
       </map>
     </option>
     <option name="secretId" value="" />
