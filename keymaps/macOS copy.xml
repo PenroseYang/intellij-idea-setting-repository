@@ -32,6 +32,9 @@
   </action>
   <action id="GotoRelated" />
   <action id="GotoUrlAction" />
+  <action id="IDEKit AI Tab">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -88,6 +91,9 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id="com.sankuai.meituan.format.jetbrains.action.IncReformatCodeAction">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>

@@ -11,11 +11,7 @@
     <option name="methodReturnType" value="code" />
     <option name="projectWordMap">
       <map>
-        <entry key="YangProgram">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="YangProgram" />
         <entry key="aes-apiservice" />
         <entry key="aes-gateway" />
         <entry key="c-aggregation" />
@@ -24,13 +20,13 @@
         <entry key="high-performance-framework" />
         <entry key="train-agent-gateway" />
         <entry key="train-server" />
-        <entry key="trip-c-common-api" />
-        <entry key="trip-camp" />
-        <entry key="trip-poi-list">
+        <entry key="trip-c-common-api">
           <value>
             <map />
           </value>
         </entry>
+        <entry key="trip-camp" />
+        <entry key="trip-poi-list" />
         <entry key="trip_c_commonapi_test" />
       </map>
     </option>
