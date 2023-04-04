@@ -26,6 +26,11 @@
           </value>
         </entry>
         <entry key="trip-camp" />
+        <entry key="trip-package-api">
+          <value>
+            <map />
+          </value>
+        </entry>
         <entry key="trip-poi-list">
           <value>
             <map />
