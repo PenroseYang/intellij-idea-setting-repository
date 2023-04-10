@@ -14,16 +14,16 @@
         <entry key="YangProgram" />
         <entry key="aes-apiservice" />
         <entry key="aes-gateway" />
-        <entry key="c-aggregation">
-          <value>
-            <map />
-          </value>
-        </entry>
+        <entry key="c-aggregation" />
         <entry key="c-api-cell" />
         <entry key="detail-popup-voucher" />
         <entry key="high-performance-framework" />
         <entry key="train-agent-gateway" />
-        <entry key="train-server" />
+        <entry key="train-server">
+          <value>
+            <map />
+          </value>
+        </entry>
         <entry key="trip-c-common-api" />
         <entry key="trip-camp" />
         <entry key="trip-package-api" />
