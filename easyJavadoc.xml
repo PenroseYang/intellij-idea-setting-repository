@@ -29,6 +29,11 @@
         <entry key="trip-package-api" />
         <entry key="trip-poi-list" />
         <entry key="trip_c_commonapi_test" />
+        <entry key="volga">
+          <value>
+            <map />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="secretId" value="" />
