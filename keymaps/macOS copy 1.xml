@@ -1,4 +1,8 @@
 <keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+  <action id="AliP3CInspectionAction">
+    <keyboard-shortcut first-keystroke="shift meta alt j" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -22,6 +26,7 @@
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="GotoAction" />
   <action id="GotoRelated" />
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
@@ -57,6 +62,11 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="Sonar-Sonic.AnalyzeChangedFiles">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Sonar-Sonic.AnalyzeFiles" />
+  <action id="SonarLint.AnalyzeFiles" />
   <action id="Sql.EditParameter">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -69,4 +79,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id="com.dubreuia.core.action.ShortcutAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
