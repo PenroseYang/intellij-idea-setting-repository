@@ -28,6 +28,10 @@
       <conditions />
       <template name="fakeKey" value="$EXPR$.stream().collect(Collectors.toMap($END$::$END$, item -&gt; item));" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="orElse@userDefined" key=".orElse" provider="builtin.java" language-level="8" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="Optional.ofNullable($EXPR$).orElse(null)" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
+    </template>
     <template id="ifNonNull@userDefined" key=".ifNonNull" provider="builtin.java" language-level="8" topmost="true">
       <conditions />
       <template name="fakeKey" value="if ($EXPR$ != null){&#10;    $END$        &#10;}" toReformat="true" toShortenFQNames="true" useStaticImport="true" />
