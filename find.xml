@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/trip-c-common-api-service/src/main/java/com/meituan/trip/common/api/util/ShelfRedirectUtils.java [trip-c-common-api-service]'" />
-    <option name="defaultScopeName" value="File '…/trip-c-common-api-service/src/main/java/com/meituan/trip/common/api/util/ShelfRedirectUtils.java [trip-c-common-api-service]'" />
-    <option name="SEARCH_SCOPE" value="File '…/trip-c-common-api-service/src/main/java/com/meituan/trip/common/api/util/ShelfRedirectUtils.java [trip-c-common-api-service]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
