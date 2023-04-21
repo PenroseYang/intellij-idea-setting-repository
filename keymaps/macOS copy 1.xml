@@ -67,7 +67,7 @@
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="Sonar-Sonic.AnalyzeChangedFiles">
-    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
   <action id="Sonar-Sonic.AnalyzeFiles" />
   <action id="SonarLint.AnalyzeFiles" />
@@ -83,6 +83,5 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
-  <action id="com.dubreuia.core.action.ShortcutAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
