@@ -53,4 +53,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="mockUtil" value="private static final ThreadLocal&lt;java.util.HashMap&lt;String, String&gt;&gt; COMMON_PARAM_THREAD_LOCAL = new ThreadLocal&lt;java.util.HashMap&lt;String, String&gt;&gt;();&#10;&#10;    public static void setKeyReslut(String key, String value) {&#10;        java.util.HashMap&lt;String, String&gt; stringStringHashMap = java.util.Optional.ofNullable(COMMON_PARAM_THREAD_LOCAL.get()).orElse(new java.util.HashMap&lt;&gt;());&#10;        COMMON_PARAM_THREAD_LOCAL.set(stringStringHashMap);&#10;        stringStringHashMap.put(key, value);&#10;    }&#10;&#10;    public static String getKeyResult() {&#10;        String jsonString = com.alibaba.fastjson.JSON.toJSONString(COMMON_PARAM_THREAD_LOCAL.get());&#10;        COMMON_PARAM_THREAD_LOCAL.remove();&#10;        return jsonString;&#10;    }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
